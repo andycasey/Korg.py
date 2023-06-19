@@ -14,7 +14,7 @@ The following code snippet will install and link Julia 1.9.1 to your current Pyt
 
 ```bash
 wget https://raw.githubusercontent.com/abelsiqueira/jill/v0.4.0/jill.sh
-bash jill.sh -y -v 1.9.1
+sudo bash jill.sh -y -v 1.9.1
 export PYTHON=$(which python)
 julia -e 'using Pkg; Pkg.add("PyCall")'
 pip install julia
