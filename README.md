@@ -12,7 +12,7 @@ This is a Python wrapper for [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 
 
 The following code snippet will install and link Julia 1.9.1 to your current Python environment.
 
-```bash
+```
 wget https://raw.githubusercontent.com/abelsiqueira/jill/v0.4.0/jill.sh
 sudo bash jill.sh -y -v 1.9.1
 export PYTHON=$(which python)
