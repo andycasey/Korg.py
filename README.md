@@ -1,6 +1,6 @@
 # Korg.py
 
-This is a Python wrapper for [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 1D LTE stellar spectral synthesis code for FGK stars in Julia.
+This provides instructions on how to execute [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 1D LTE stellar spectral synthesis code for FGK stars in Julia, from Python.
 
 [Code paper](https://ui.adsabs.harvard.edu/abs/2023AJ....165...68W/abstract): Wheeler et al. (2023). Please cite this if you use Korg.
 
