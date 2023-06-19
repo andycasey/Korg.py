@@ -10,7 +10,7 @@ This is a Python wrapper for [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 
 
 ## Installation
 
-The following code snippet will install and link Julia 1.9.1 to your current Python environment.
+The following code snippet will install and link Julia 1.9.1 to your current Python environment, and install the latest version of [Korg.jl](https://github.com/ajwheeler/Korg.jl).
 
 ```
 wget https://raw.githubusercontent.com/abelsiqueira/jill/v0.4.0/jill.sh
