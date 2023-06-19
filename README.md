@@ -20,6 +20,7 @@ julia -e 'using Pkg; Pkg.add("PyCall")'
 pip install julia
 python -c 'import julia; julia.install()'
 unset PYTHON
+julia -e 'using Pkg; Pkg.add("Korg")'
 ```
 
 ## Example
