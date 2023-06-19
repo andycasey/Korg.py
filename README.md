@@ -1,6 +1,6 @@
 A Python wrapper for [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 1D LTE stellar spectral synthesis code for FGK stars in pure Julia.
 
-[Code paper](https://ui.adsabs.harvard.edu/abs/2023AJ....165...68W/abstract) (please cite this if you use Korg)
+[Code paper](https://ui.adsabs.harvard.edu/abs/2023AJ....165...68W/abstract): Wheeler et al. (2023). Please cite this if you use Korg.
 
 [Tutorial](https://github.com/ajwheeler/Korg.jl/blob/main/misc/Tutorial%20notebooks/Tutorial.ipynb)
 
@@ -8,7 +8,7 @@ A Python wrapper for [Korg.jl](https://github.com/ajwheeler/Korg.jl), a 1D LTE s
 
 ## Installation
 
-The following code snippet will install and link Julia to your current Python environment.
+The following code snippet will install and link Julia 1.9.1 to your current Python environment.
 
 ```bash
 wget https://raw.githubusercontent.com/abelsiqueira/jill/v0.4.0/jill.sh
@@ -21,6 +21,8 @@ unset PYTHON
 ```
 
 ## Example
+
+This repository contains the example line list and model atmosphere necessary to execute the example below.
 
 ```python
 import matplotlib.pyplot as plt
@@ -35,9 +37,9 @@ fig, ax = plt.subplots(figsize=(12, 4))
 ax.plot(sol.wavelengths, sol.flux, "k-")
 ax.set_xlabel("$\lambda$ [Å]")
 ax.set_ylabel("$F_\lambda/R_\mathrm{star}^2$ [erg s$^{-1}$ cm$^{-5}$]")
-fig.savefig("example.pdf")
+fig.savefig("example.png")
 ```
-
+![example](https://github.com/andycasey/Korg.py/assets/504436/92110745-fce1-4c21-881d-b98cf296998d)
 
 # FAQ / Issues
 
